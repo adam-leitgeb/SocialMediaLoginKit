@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "facebook-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/facebook/facebook-ios-sdk",
+      "state" : {
+        "revision" : "fdc9136e0d56387dcd25391f22d971534e99d089",
+        "version" : "15.0.0"
+      }
+    },
+    {
       "identity" : "swiftkeychainwrapper",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/jrendel/SwiftKeychainWrapper",
