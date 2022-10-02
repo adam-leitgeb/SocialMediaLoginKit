@@ -10,7 +10,7 @@ import FBSDKLoginKit
 import Foundation
 
 @available(iOS 13.0, *)
-public final class ProductionFacebookLoginUseCase: FacebookLoginUseCase {
+public final class FacebookLoginUseCaseProduction: FacebookLoginUseCase {
 
     // MARK: - Types
 
