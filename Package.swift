@@ -23,9 +23,9 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "SocialMediaLoginKit",
-            dependencies: ["SwiftKeychainWrapper", "Facebook", "GoogleSignIn"]),
+            dependencies: ["SwiftKeychainWrapper", "facebook-ios-sdk", "GoogleSignIn-iOS"]),
         .testTarget(
             name: "SocialMediaLoginKitTests",
-            dependencies: ["SocialMediaLoginKit", "SwiftKeychainWrapper", "Facebook", "GoogleSignIn"]),
+            dependencies: ["SocialMediaLoginKit", "SwiftKeychainWrapper", "facebook-ios-sdk", "GoogleSignIn-iOS"]),
     ]
 )
