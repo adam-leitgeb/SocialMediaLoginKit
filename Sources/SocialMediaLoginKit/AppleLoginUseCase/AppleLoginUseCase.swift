@@ -11,5 +11,5 @@ import Foundation
 
 @available(iOS 13.0, *)
 public protocol AppleLoginUseCase {
-    func signInWithApple() -> AnyPublisher<AppleLoginResponse, AppleLoginUseCaseError>
+    func authenticate() -> AnyPublisher<AppleLoginResponse, AppleLoginUseCaseError>
 }

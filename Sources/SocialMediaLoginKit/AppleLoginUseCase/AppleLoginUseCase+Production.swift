@@ -19,7 +19,7 @@ public final class AppleLoginUseCaseProduction: NSObject, AppleLoginUseCase {
 
     // MARK: - Actions
 
-    public func signInWithApple() -> AnyPublisher<AppleLoginResponse, AppleLoginUseCaseError> {
+    public func authenticate() -> AnyPublisher<AppleLoginResponse, AppleLoginUseCaseError> {
         publisher?.send(completion: .failure(.cancelled))
         publisher = PassthroughSubject<AppleLoginResponse, AppleLoginUseCaseError>()
 
